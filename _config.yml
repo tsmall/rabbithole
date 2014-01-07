@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Untitled Project
 markdown: redcarpet
 pygments: true
+baseurl: /untitled
