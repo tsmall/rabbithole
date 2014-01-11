@@ -101,6 +101,12 @@ footer p:last-child {
 .nav-item a {
     opacity: 0.5;
     text-decoration: none;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.nav-item a:hover {
+    opacity: 1.0;
 }
 
 .social-media-icon {
