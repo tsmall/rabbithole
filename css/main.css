@@ -71,29 +71,21 @@ footer p:last-child {
 /* Module Rules                                                               */
 /* -------------------------------------------------------------------------- */
 
-/* Navigation --------------------------------------------------------------- */
-
 .nav-list {
     list-style-type: none;
 }
 
-.nav-item {
+.circle {
     display: block;
     position: absolute;
-}
-.nav-item a {
-    display: block;
 
     border-radius: 50%;
     width: 100px;
     height: 100px;
 
     color: #FFF;
-    background-color: #2FFFFF;
-
-    text-decoration: none;
 }
-.nav-item span {
+.circle-text {
     display: block;
     float: left;
     width: 100%;
@@ -102,75 +94,110 @@ footer p:last-child {
     margin-top: -0.5em;
     text-align: center;
 }
-
-#nav-item-mission {
-    top: 40px;
-    left: 285px;
-}
-#nav-item-mission a {
-    background-color: #92FFC9;
+.circle-bg {
+    opacity: 0.2;
 }
 
-#nav-item-classes {
-    top: 115px;
-    left: 385px;
-}
-#nav-item-classes a {
-    width: 95px;
-    height: 95px;
-}
-
-#nav-item-schedule {
-    top: 65px;
-    left: 480px;
-}
-#nav-item-schedule a {
-    background-color: #FBA289;
-    width: 85px;
-    height: 85px;
-}
-
-#nav-item-contact {
-    top: 35px;
-    left: 600px;
-}
-#nav-item-contact a {
-    background-color: #B0A5F2;
-    width: 70px;
-    height: 70px;
-}
-
-#nav-item-faq {
-    top: 150px;
-    left: 580px;
-}
-#nav-item-faq a {
-    background-color: #92FFC9;
-    width: 70px;
-    height: 70px;
-}
-
-#nav-item-fun {
-    top: 40px;
-    left: 730px;
-}
-#nav-item-fun a {
-    width: 65px;
-    height: 65px;
-}
-
-#nav-item-blog {
-    top: 150px;
-    left: 700px;
-}
-#nav-item-blog a {
-    background-color: #FBA289;
-    width: 80px;
-    height: 80px;
+.nav-item a {
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 .social-media-icon {
     width: 29px;
     height: 29px;
     margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Specific Rules                                                             */
+/* -------------------------------------------------------------------------- */
+
+#circle-bg-1 {
+    background-color: #2FFFFF;
+    top: 105px;
+    left: 330px;
+    width: 75px;
+    height: 75px;
+}
+#circle-bg-2 {
+    background-color: #B0A5F2;
+    top: 70px;
+    left: 520px;
+    width: 105px;
+    height: 105px;
+}
+#circle-bg-3 {
+    background-color: #FBA289;
+    top: 80px;
+    left: 610px;
+    width: 130px;
+    height: 130px;
+}
+#circle-bg-4 {
+    background-color: #92FFC9;
+    top: 60px;
+    left: 420px;
+    width: 75px;
+    height: 75px;
+}
+#circle-bg-5 {
+    background-color: #2FFFFF;
+    top: 0px;
+    left: 480px;
+}
+#circle-bg-6 {
+    background-color: #FBA289;
+    top: 140px;
+    left: 310px;
+    width: 85px;
+    height: 85px;
+}
+
+#nav-item-mission a {
+    background-color: #92FFC9;
+    top: 40px;
+    left: 285px;
+}
+#nav-item-classes a {
+    background-color: #2FFFFF;
+    top: 115px;
+    left: 385px;
+    width: 95px;
+    height: 95px;
+}
+#nav-item-schedule a {
+    background-color: #FBA289;
+    top: 65px;
+    left: 480px;
+    width: 85px;
+    height: 85px;
+}
+#nav-item-contact a {
+    background-color: #B0A5F2;
+    top: 35px;
+    left: 600px;
+    width: 70px;
+    height: 70px;
+}
+#nav-item-faq a {
+    background-color: #92FFC9;
+    top: 150px;
+    left: 580px;
+    width: 70px;
+    height: 70px;
+}
+#nav-item-fun a {
+    background-color: #2FFFFF;
+    top: 40px;
+    left: 730px;
+    width: 65px;
+    height: 65px;
+}
+#nav-item-blog a {
+    background-color: #FBA289;
+    top: 150px;
+    left: 700px;
+    width: 80px;
+    height: 80px;
 }
