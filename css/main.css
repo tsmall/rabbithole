@@ -39,14 +39,16 @@ header {
 
 #social-media {
     float: right;
-    width: 10em;
+    width: 2em;
 }
 #social-media ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #page-content {
-    max-width: 600px;
+    max-width: 40em;
 }
 
 footer {
@@ -165,4 +167,10 @@ footer p:last-child {
     background-color: #FBA289;
     width: 80px;
     height: 80px;
+}
+
+.social-media-icon {
+    width: 29px;
+    height: 29px;
+    margin-bottom: 10px;
 }
