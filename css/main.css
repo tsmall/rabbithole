@@ -1,11 +1,168 @@
+@import url(http://fonts.googleapis.com/css?family=Actor);
+
 /* -------------------------------------------------------------------------- */
 /* Base Rules                                                                 */
 /* -------------------------------------------------------------------------- */
+
+body {
+    font-family: "Actor", "Helvetica", "Arial", sans-serif;
+    font-size: 100%;
+    line-height: 1.5em;
+}
 
 /* -------------------------------------------------------------------------- */
 /* Layout Rules                                                               */
 /* -------------------------------------------------------------------------- */
 
+.site {
+    margin: 1em auto;
+    max-width: 850px;
+    position: relative;
+}
+
+header {
+    height: 250px;
+}
+
+.title {
+    font-size: 4em;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    max-width: 5em;
+    line-height: 1em;
+}
+.title a {
+    color: #B0A5F2;
+    text-decoration: none;
+}
+
+#social-media {
+    float: right;
+    width: 10em;
+}
+#social-media ul {
+    list-style-type: none;
+}
+
+#page-content {
+    max-width: 600px;
+}
+
+footer {
+    font-size: 0.8em;
+    position: relative;
+}
+footer p {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 1em;
+}
+footer p+p {
+    text-align: center;
+}
+footer p:last-child {
+    text-align: right;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Module Rules                                                               */
 /* -------------------------------------------------------------------------- */
+
+/* Navigation --------------------------------------------------------------- */
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: block;
+    position: absolute;
+}
+.nav-item a {
+    display: block;
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    color: #FFF;
+    background-color: #2FFFFF;
+
+    text-decoration: none;
+}
+.nav-item span {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+}
+
+#nav-item-mission {
+    top: 40px;
+    left: 285px;
+}
+#nav-item-mission a {
+    background-color: #92FFC9;
+}
+
+#nav-item-classes {
+    top: 115px;
+    left: 385px;
+}
+#nav-item-classes a {
+    width: 95px;
+    height: 95px;
+}
+
+#nav-item-schedule {
+    top: 65px;
+    left: 480px;
+}
+#nav-item-schedule a {
+    background-color: #FBA289;
+    width: 85px;
+    height: 85px;
+}
+
+#nav-item-contact {
+    top: 35px;
+    left: 600px;
+}
+#nav-item-contact a {
+    background-color: #B0A5F2;
+    width: 70px;
+    height: 70px;
+}
+
+#nav-item-faq {
+    top: 150px;
+    left: 580px;
+}
+#nav-item-faq a {
+    background-color: #92FFC9;
+    width: 70px;
+    height: 70px;
+}
+
+#nav-item-fun {
+    top: 40px;
+    left: 730px;
+}
+#nav-item-fun a {
+    width: 65px;
+    height: 65px;
+}
+
+#nav-item-blog {
+    top: 150px;
+    left: 700px;
+}
+#nav-item-blog a {
+    background-color: #FBA289;
+    width: 80px;
+    height: 80px;
+}
