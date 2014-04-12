@@ -18,8 +18,14 @@ h1, h2, h3 {
 /* Layout Rules                                                               */
 /* -------------------------------------------------------------------------- */
 
+.site {
+    margin: 0 auto;
+    max-width: 65em;
+}
+
 header {
     text-align: center;
+    margin-left: -4em;
 }
 
 nav ul {
@@ -28,6 +34,14 @@ nav ul {
 
 nav li {
     display: inline;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #888;
+    color: #888;
+    font-size: 0.8em;
+    margin: 2em auto;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -51,4 +65,31 @@ nav li {
 .nav-image {
     border-top: 0px;
     border-bottom: 0px;
+}
+
+.pullout {
+    float: left;
+    width: 30em;
+    margin-right: 2em;
+}
+
+.pullout img {
+    max-width: 100%;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.float-clearer {
+    display: block;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    height: 0px;
 }

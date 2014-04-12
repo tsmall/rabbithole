@@ -15,7 +15,7 @@
                         <li><a class="nav-link" href="{{ site.baseurl }}/mission/">Mission</a></li>
                         <li><a class="nav-link" href="{{ site.baseurl }}/classes/">Classes</a></li>
                         <li><a class="nav-link" href="{{ site.baseurl }}/schedule/">Schedule</a></li>
-                        <li><a class="nav-link nav-image" href="{{ site.baseurl }}/"><img class="img-logo" src="{{ site.baseurl }}/media/trh-logo.png" alt="The Rabbig Hole Logo"></a></li>
+                        <li><a class="nav-link nav-image" href="{{ site.baseurl }}/"><img class="img-logo" src="{{ site.baseurl }}/media/trh-logo.png" alt="The Rabbit Hole Logo"></a></li>
                         <li><a class="nav-link" href="{{ site.baseurl }}/faq/">FAQ</a></li>
                         <li><a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a></li>
                         <li><a class="nav-link" href="{{ site.baseurl }}/blog/">Blog</a></li>
@@ -25,10 +25,17 @@
             </header>
             <main>
                 <section id="page-content">
+                    <aside class="pullout">
+                        <img src="{{ site.baseurl }}/media/sample.png" alt="Sample Image">
+                    </aside>
                     {{ content }}
+                    <i class="float-clearer"></i>
                 </section>
             </main>
             <footer>
+                <section class="footer-left">&copy; The Rabbit Hole, 2014. All rights reserved.</section>
+                <section class="footer-center"><!-- social network images go here --></section>
+                <section class="footer-right">Cute tagline here?</section>
             </footer>
         </div>
     </body>
