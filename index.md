@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<aside class="pullout">
+    <img src="{{ site.baseurl }}media/sample.png" alt="Sample Image">
+</aside>
+
 # Welcome!
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
