@@ -1,0 +1,5 @@
+<article class="post">
+    <h2><a href="{{ post.url }}" class="post-link">{{ post.title }}</a></h2>
+    <p class="post-info">Posted on {{ post.date | date: "%a, %B %-d, %Y" }}.</p>
+    <div class="post-excerpt">{{ post.excerpt }}</div>
+</article>

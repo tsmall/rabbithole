@@ -63,8 +63,8 @@ footer {
 }
 
 .nav-image {
-    border-top: 0px;
-    border-bottom: 0px;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 .pullout {
@@ -90,6 +90,6 @@ footer {
     clear: both;
     margin: 0;
     padding: 0;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 }

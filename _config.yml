@@ -2,3 +2,4 @@ name: The Rabbit Hole
 markdown: redcarpet
 pygments: true
 baseurl: /
+permalink: /blog/:year/:month/:day/:title/
