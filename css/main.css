@@ -21,6 +21,7 @@ h1, h2, h3 {
 .site {
     margin: 0 auto;
     max-width: 65em;
+    padding: 0 1em;
 }
 
 header {
@@ -74,9 +75,9 @@ footer {
 }
 
 .pullout {
-    float: left;
-    width: 30em;
-    margin-right: 2em;
+    float: right;
+    max-width: 50%;
+    margin-left: 2em;
 }
 
 .pullout img {
