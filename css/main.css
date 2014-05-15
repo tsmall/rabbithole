@@ -67,6 +67,12 @@ footer {
     border-bottom: 0;
 }
 
+@media (max-width: 1024px) {
+    .nav-image {
+        width: 95%;
+    }
+}
+
 .pullout {
     float: left;
     width: 30em;
