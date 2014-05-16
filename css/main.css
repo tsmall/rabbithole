@@ -14,6 +14,10 @@ h1, h2, h3 {
     font-family: "Life Savers";
 }
 
+img {
+    width: 100%;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Layout Rules                                                               */
 /* -------------------------------------------------------------------------- */
@@ -69,9 +73,17 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    .nav-link {
+        padding: 0.5em 0.5em;
+    }
+
     .nav-image {
         width: 95%;
     }
+}
+
+.img-logo {
+    max-width: 288px;
 }
 
 .pullout {
