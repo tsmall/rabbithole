@@ -1,5 +1,7 @@
 name: The Rabbit Hole
+description: The Rabbit Hole Blog
 markdown: redcarpet
 pygments: true
 baseurl: /
+url: http://rabbitholenyc.com
 permalink: /blog/:year/:month/:day/:title/
