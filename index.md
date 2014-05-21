@@ -7,12 +7,15 @@ title: Home
     <img src="{{ site.baseurl }}media/sample.png" alt="Sample Image">
 </aside>
 
-# Welcome!
+# Come join us!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat. Duis aute irure dolor in
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Your child&rsquo;s natural sense of play and wonder should be
+nourished while they are their most open minded and carefree.
+
+The Rabbit Hole Studio offers classes for ages 4&ndash;10 that
+combines the centering power of yoga with the creative release of
+improv and storytelling.
+
+Our teaching partners allow children to explore their senses and
+creative instincts while providing an environment that promotes peace
+and balance.
