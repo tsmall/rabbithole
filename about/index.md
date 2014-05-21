@@ -5,16 +5,16 @@ title: Mission
 
 # Our Mission
 
-Sensory overload and academic pressure go hand in hand with growing up
-in the big city. The Rabbit Hole&rsquo;s mission is to provide a place
-of peace and release for your child, to provide them the tools for a
-balanced and creative life.
+The Rabbit Hole&rsquo;s mission is to encourage your child&rsquo;s
+natural sense of play and creativity. By providing an environment that
+promotes peace and balance, we give them the tools for a creative and
+imaginative life.
 
 # About Us
 
-The Rabbit Hole Studio offers classes for ages 4&ndash;10 that
-combines the release of creative play and imagination with the peace
-of balance and centering through yoga.
+The Rabbit Hole Studio offers classes for ages 4&ndash;6 and
+7&ndash;10 that combines the release of creative play and imagination
+with the peace of balance and centering through yoga.
 
 Our teaching partners understand the academic pressures and sensory
 overload a child faces living in NYC. Because we face it too! In the
