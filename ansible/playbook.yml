@@ -1,0 +1,50 @@
+---
+- name: install system level dependencies
+  hosts: all
+  sudo: yes
+  tasks:
+    - name: ensure nodejs is installed
+      apt: name=nodejs update_cache=yes state=present
+    - name: download ruby-install
+      shell: wget -O ruby-install-0.4.3.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.3.tar.gz
+      args:
+        chdir: /tmp
+        creates: ruby-install-0.4.3.tar.gz
+    - name: untar ruby-install
+      shell: tar -xzvf ruby-install-0.4.3.tar.gz
+      args:
+        chdir: /tmp
+        creates: ruby-install-0.4.3
+    - name: install ruby-install
+      shell: make install
+      args:
+        chdir: /tmp/ruby-install-0.4.3
+        creates: /usr/local/bin/ruby-install
+    - name: download chruby
+      shell: wget -O chruby-0.3.8.tar.gz https://github.com/postmodern/chruby/archive/v0.3.8.tar.gz
+      args:
+        chdir: /tmp
+        creates: chruby-0.3.8.tar.gz
+    - name: untar chruby
+      shell: tar -xzvf chruby-0.3.8.tar.gz
+      args:
+        chdir: /tmp
+        creates: chruby-0.3.8
+    - name: install chruby
+      shell: make install
+      args:
+        chdir: /tmp/chruby-0.3.8
+        creates: /usr/local/bin/chruby-exec
+    - name: enable chruby system wide
+      copy: src=chruby.sh dest=/etc/profile.d/chruby.sh
+- name: install user level dependencies
+  hosts: all
+  tasks:
+    - name: install ruby
+      shell: ruby-install ruby 2.1.2
+      args:
+        creates: /home/vagrant/.rubies/ruby-2.1.2
+    - name: use the installed ruby by default
+      lineinfile: dest=~/.bash_profile create=yes line='chruby ruby-2.1.2'
+    - name: install bundler and the project dependencies
+      script: bundler.sh
