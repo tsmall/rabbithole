@@ -4,19 +4,15 @@ title: Home
 ---
 
 <aside class="pullout">
-    <img src="{{ site.baseurl }}media/sample.png" alt="Sample Image">
+    <img src="{{ site.baseurl }}media/class.jpg" alt="Rabbit Hole Class">
 </aside>
 
-# Come join us!
+> <dquo>&ldquo;Ideas are like rabbits. You get a couple and learn how to
+> handle them, and pretty soon you have a dozen.&rdquo;</dquo><br>
+> &mdash; John Steinbeck
 
-Let us nourish your child&rsquo;s natural sense of play and wonder!
+The Rabbit Hole is a place of peace and play. Engage your whole self through
+yoga, movement, guided meditations, brain games, spirit games and silliness.
 
-The Rabbit Hole Studios offers classes for ages 4&ndash;6 and
-7&ndash;10 that combines the centering power of yoga with the creative
-release of improv, music, and storytelling.
-
-Our teaching partners allow children to explore their senses and
-creative instincts while providing an environment that promotes peace
-and balance.
-
-Come imagine, explore, and play!
+Here, you can find sanctuary. Here, you can express yourself. Here, existing
+is everything.
