@@ -58,19 +58,21 @@ img {
 
 header {
     text-align: center;
-    margin-left: -4em;
-}
-
-main {
-    padding: 0 1em;
+    margin-top: 1em;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
     display: inline;
+}
+
+main {
+    padding: 0 1em;
 }
 
 footer {
@@ -125,7 +127,7 @@ footer section {
     border-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
     .nav-link {
         padding: 0.5em 0.5em;
     }
