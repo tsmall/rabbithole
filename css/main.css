@@ -33,6 +33,16 @@ img {
 /* Layout Rules                                                               */
 /* -------------------------------------------------------------------------- */
 
+.column {
+    width: 45%;
+}
+.column-left {
+    float: left;
+}
+.column-right {
+    float: right;
+}
+
 .site {
     margin: 0 auto;
     max-width: 65em;
@@ -98,11 +108,10 @@ footer {
 }
 
 .pullout {
-    float: right;
     max-width: 50%;
+    float: right;
     margin-left: 2em;
 }
-
 .pullout img {
     max-width: 100%;
 }
@@ -127,4 +136,27 @@ footer {
 .placeholder {
     margin-top: 1em;
     text-align: center;
+}
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    margin: 2em 0 3em 0;
+}
+
+ul.hanging {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* About Us Page                                                              */
+/* -------------------------------------------------------------------------- */
+
+#bios div {
+    clear: both;
 }
