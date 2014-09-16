@@ -84,10 +84,10 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    
+
     -webkit-align-items: baseline;
             align-items: baseline;
-    
+
     -webkit-flex-direction: row;
             flex-direction: row;
 
@@ -206,10 +206,13 @@ hr.gradient {
     margin: 2em 0 3em 0;
 }
 
-@media (min-width: 768px) {
+ul.hanging {
+    margin-left: 0;
+    padding-left: 0;
+}
+@media (max-width: 768px) {
     ul.hanging {
-        margin-left: 0;
-        padding-left: 0;
+        padding-left: 1em;
     }
 }
 
