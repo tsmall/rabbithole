@@ -23,6 +23,10 @@ blockquote {
     padding-left: 1em;
 }
 
+p, li {
+    max-width: 35em;
+}
+
 dquo {
     margin-left: -0.3em;
 }
@@ -34,22 +38,6 @@ img {
 /* -------------------------------------------------------------------------- */
 /* Layout Rules                                                               */
 /* -------------------------------------------------------------------------- */
-
-.column {
-    width: 45%;
-}
-.column-left {
-    float: left;
-}
-.column-right {
-    float: right;
-}
-
-@media (max-width: 768px) {
-    .column       { width: auto; }
-    .column-left  { float: none; }
-    .column-right { float: none; }
-}
 
 .site {
     margin: 0 auto;
@@ -122,6 +110,10 @@ footer section {
 /* -------------------------------------------------------------------------- */
 /* Module Rules                                                               */
 /* -------------------------------------------------------------------------- */
+
+.extra-space {
+    margin-top: 2em;
+}
 
 .nav-link {
     display: inline-block;
@@ -227,8 +219,8 @@ ul.hanging {
     height: 0;
     overflow: hidden;
 }
-.responsive-iframe-container iframe,   
-.responsive-iframe-container object,  
+.responsive-iframe-container iframe,
+.responsive-iframe-container object,
 .responsive-iframe-container embed {
     position: absolute;
     top: 0;
