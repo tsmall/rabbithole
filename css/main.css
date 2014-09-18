@@ -112,8 +112,7 @@ footer section {
         padding-top: 1em;
     }
     .footer-center {
-        float: right;
-        margin-left: 1em;
+        text-align: left;
     }
     .footer-right {
         text-align: left;
