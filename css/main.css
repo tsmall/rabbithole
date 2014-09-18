@@ -200,12 +200,7 @@ hr.gradient {
 
 ul.hanging {
     margin-left: 0;
-    padding-left: 0;
-}
-@media (max-width: 768px) {
-    ul.hanging {
-        padding-left: 1em;
-    }
+    padding-left: 1em;
 }
 
 .google-calendar {

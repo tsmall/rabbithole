@@ -10,11 +10,13 @@ introduction at [Ivivva][].
 
 In The Rabbit Hole Corp. class, we:
 
-- promote balance, strength and flexibility through yoga/movement
-- practice presence and mindfulness
-- encourage creativity through improv/theatre games
-- get really silly
-- build confidence through freedom of expression
-- explore both stillness and release
+<ul class="hanging">
+    <li>promote balance, strength and flexibility through yoga/movement</li>
+    <li>practice presence and mindfulness</li>
+    <li>encourage creativity through improv/theatre games</li>
+    <li>get really silly</li>
+    <li>build confidence through freedom of expression</li>
+    <li>explore both stillness and release</li>
+</ul>
 
 [Ivivva]: http://info.ivivva.com/newyork/new-york-city-showroom
