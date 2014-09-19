@@ -5,10 +5,10 @@ title: Classes
 
 # Classes
 
-Want to come down the rabbit hole? Try our Rabbit Hole Corp. class as a FREE
+Want to come down the rabbit hole? Try our Rabbit Hole CORE class as a FREE
 introduction at [Ivivva][].
 
-In The Rabbit Hole Corp. class, we:
+In The Rabbit Hole CORE class, we:
 
 <ul class="hanging">
     <li>promote balance, strength and flexibility through yoga/movement</li>
