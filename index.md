@@ -7,10 +7,6 @@ title: Home
     <img src="{{ site.baseurl }}media/class.jpg" alt="Rabbit Hole Class">
 </aside>
 
-> <dquo>&ldquo;Ideas are like rabbits. You get a couple and learn how to
-> handle them, and pretty soon you have a dozen.&rdquo;</dquo><br>
-> &mdash; John Steinbeck
-
 Sensory overload and the pressure to succeed go hand in hand in the Big
 City. We know, because we face it too! In the spirit of those we&rsquo;ve
 learned from, [Eckhart Tolle][] and [Don Miguel Ruiz][], our classes allow
