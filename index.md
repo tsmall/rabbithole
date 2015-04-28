@@ -11,12 +11,14 @@ We host workshops that explore our relationships &hellip;
 to the world around us,
 to each other and to ourselves.
 
-Social media,
-body image,
-romance,
+Exploring ideas of body image,
 nutrition,
-the pressure to succeed &hellip;
-sometimes it takes a room full of women to hash it all out.  
+social media addiction,
+romance,
+the pressure to succeed
+&hellip;
+Sometimes it takes a room full of women
+to hash it all out. 
 
 In our workshops we:
 
