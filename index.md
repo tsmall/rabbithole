@@ -19,11 +19,3 @@ the pressure to succeed
 &hellip;
 Sometimes it takes a room full of women
 to hash it all out. 
-
-In our workshops we:
-
-* practice meditation
-* talk girltalk
-* get really silly
-* find confidence through freedom of expression  
-* promote an attitude of gratitude
