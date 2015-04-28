@@ -10,7 +10,7 @@ Here are the workshops we currently hold:
 
 <ul class="hanging">
     <li>I am what I Instagram</li>
-    <li>Bea-YOU-iful</li>
+    <li>Bea-YOU-tiful</li>
     <li>Embody Empathy</li>
 </ul>
 
