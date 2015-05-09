@@ -4,7 +4,7 @@ title: Home
 ---
 
 <aside class="pullout">
-    <img src="{{ site.baseurl }}media/class.jpg" alt="Rabbit Hole Class">
+    <img src="{{ site.baseurl }}media/collage.jpg" alt="Rabbit Hole class and instructor collage">
 </aside>
 
 We host workshops that explore our relationships &hellip;
