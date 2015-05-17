@@ -1,8 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Life+Savers:400,700);
 
-/* -------------------------------------------------------------------------- */
-/* Base Rules                                                                 */
-/* -------------------------------------------------------------------------- */
+/* Base Rules -------------------- */
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
@@ -27,17 +25,11 @@ p, li {
     max-width: 35em;
 }
 
-dquo {
-    margin-left: -0.3em;
-}
-
 img {
     width: 100%;
 }
 
-/* -------------------------------------------------------------------------- */
-/* Layout Rules                                                               */
-/* -------------------------------------------------------------------------- */
+/* Layout Rules -------------------- */
 
 .site {
     margin: 0 auto;
@@ -85,14 +77,17 @@ footer {
     margin-top: 1em;
     padding: 0.5em 1em 1em 1em;
 }
+
 footer section {
     -webkit-flex: 1 50%;
     -ms-flex: 1 50%;
     flex: 1 50%;
 }
+
 footer section:nth-child(even) {
     text-align: right;
 }
+
 @media (max-width: 768px) {
     footer {
         display: block;
@@ -103,13 +98,7 @@ footer section:nth-child(even) {
     }
 }
 
-/* -------------------------------------------------------------------------- */
-/* Module Rules                                                               */
-/* -------------------------------------------------------------------------- */
-
-.extra-space {
-    margin-top: 2em;
-}
+/* Module Rules -------------------- */
 
 .nav-link {
     display: inline-block;
@@ -144,24 +133,16 @@ footer section:nth-child(even) {
     max-width: 288px;
 }
 
-.social-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    background-color: #888;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
 .pullout {
     max-width: 50%;
     float: right;
     margin-left: 2em;
 }
+
 .pullout img {
     max-width: 100%;
 }
+
 @media (max-width: 768px) {
     .pullout {
         max-width: 125%;
@@ -199,30 +180,7 @@ ul.hanging {
     padding-left: 1em;
 }
 
-.google-calendar {
-    border-width: 0;
-}
-
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 100px;
-    height: 0;
-    overflow: hidden;
-}
-.responsive-iframe-container iframe,
-.responsive-iframe-container object,
-.responsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* -------------------------------------------------------------------------- */
-/* About Us Page                                                              */
-/* -------------------------------------------------------------------------- */
+/* About Us Page -------------------- */
 
 #bios div {
     clear: both;
