@@ -8,6 +8,7 @@ body {
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 100%;
     line-height: 1.5em;
+    color: #888;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +19,6 @@ h1, h2, h3 {
 
 blockquote {
     border-left: 3px solid #888;
-    color: #888;
     margin: 0;
     padding-left: 1em;
 }
@@ -67,7 +67,6 @@ main {
 footer {
     clear: both;
     border-top: 1px solid #888;
-    color: #888;
     font-size: 0.8em;
 
     display: -webkit-flex;
@@ -118,7 +117,7 @@ footer section:nth-child(even) {
 
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
-    color: #888;
+    color: inherit;
 
     padding: 0.5em 1em;
     text-decoration: none;
